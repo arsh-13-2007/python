@@ -20,4 +20,10 @@ print(a.find("o"))
 #it show the index of given char
 print(a.isupper()== True )
 print(a.islower()== True )
+print(a)
+
+
+#                                              important method in string 
+#1 . split
+# . strip 
 
