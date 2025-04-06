@@ -1,10 +1,15 @@
-class  programer :
-    company = "microsoft"
-    def __init__(self , name , salary ,  pin):
+class student:
+    def __init__(self, name,phy, maths , chem):
         self.name = name
-        self.salary = salary
-        self.pin = pin
-arsh = programer("arsh" , 1200000, 135047)
-print( arsh.name , arsh.pin, arsh.salary, arsh.company)
+        self.phy = phy
+        self.maths = maths
+        self.chem = chem
+    def sum(self):
+        return self.phy + self.maths + self.chem
+
+s1 = student("arsh" ,97, 96, 95 )
+avg =s1.sum()/ 3 
+print(avg)
+
 
         
