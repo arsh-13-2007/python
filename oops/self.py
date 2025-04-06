@@ -2,7 +2,7 @@ class emp: # class   # class attribute is same for all
    
     age = 18
     study = "at upes"
-    def greeting(self):  #wihout self we not call self 
+    def greeting(self):  #wihout self we not call self     # this is also knows methods  
         print(f"Hello, my name is {self.name} and I am {self.age}")
     @staticmethod #if we not want to use self keyword then we use static method 
     def system():
