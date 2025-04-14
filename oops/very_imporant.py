@@ -15,8 +15,9 @@ def total(s):
     for i in s:
         avage += i.average()
     return avage/len(s)
-        
-        
+
+
+
 s = []
 n = int(input("enter number : "))
 for i in range(n):

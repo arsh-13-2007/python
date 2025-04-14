@@ -1,7 +1,8 @@
-f= open("file.txt")
-c =f.read()
-if ( "upes" in c):
-    print("found")
-else:
-    print("not found")
-f.close()
+count = 0 
+with open("file.txt") as f:
+    str=""
+    for word in f:
+        if ( len(word) > len(str)):
+            str = word
+print(str)
+    

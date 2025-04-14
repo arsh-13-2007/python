@@ -6,7 +6,4 @@ class emp: # class   # class attribute is same for all
 arsh = emp()
 arsh.study = "btech cse at upes"   #instance attribute have more perference then class attribute 
 print(arsh.study , arsh.age) 
-
-
-
-# to delete the object we use ( del ) key word        eg. : del arsh
+# to delete the object we use ( del ) key word   eg. : del arsh
