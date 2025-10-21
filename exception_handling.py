@@ -12,10 +12,12 @@
 a= input("enter a : ")
 b =input("enter b :  ")
 try:
-    y = int(a) / int(b)
+    y=int(a)/int(b)
     print(y)
 except ZeroDivisionError:
     print("Error Code: integer division or modulo by zero ")  # if user enter zero then it will print
 except ValueError:
     print("Error Code: invalid literal for int() with base 10: ")  # if user enter string then it will print invalid input
+finally:
+    print("this is finally block")  # it will print every time  whether error occur or
 

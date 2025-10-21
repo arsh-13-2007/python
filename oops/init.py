@@ -1,17 +1,15 @@
-#   with help of class we make 
-class emp: # class 
-   
-    age = 18
-    study = "at upes"
-    def __init__(self , name , salary , age ): #it call automaticall 
-        self.name = name
-        self.salary = salary
-        self.age = age
-        print("system")
-    def greeting(self):  #wihout self we not call function in class 
-        print(f"Hello, my name is {self.name} and I am {self.age}")
-arsh = emp("arsh" ,10000000, 28) # object 
-arsh.name = "arsh"
-arsh.greeting()
-# ram = emp() # object 
-# print(ram.study, ram.age)  # output: at upes 18 at upes
+# overridding in python 
+class shape:
+    def __init__(self, x , y ):
+        self.x = x
+        self.y = y
+    def area(self):
+        return (self.x * self.y)
+class circle( shape):
+    def __init__(self, r):
+        super().__init__(r , r)
+    def area( self):
+        return (3.14 * super().area())
+
+x = circle(3)
+print(x.area())  # Output: 28.26

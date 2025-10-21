@@ -1,7 +1,7 @@
 # dictionary 
-# in dictionart we can store any data type
+# in dictionary we can store any data type
 # we store list and tuple in dictionary 
-#  dictionary are mutable 
+# dictionary are mutable 
 # dictionary is key value pair 
 # it is unordered 
 print("hello world ")
